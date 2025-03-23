@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+.feather {
+  width: 18px;
+  height: 18px;
+  vertical-align: text-bottom;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 206px;
+  padding: 50px 0 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 200px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 4rem;
+    width: 180px;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidebar .nav-link {
+  font-weight: 600;
+  color: #333;
+  padding: 12px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 8px;
+  color: #727272;
+  transition: color 0.3s ease-in-out;
+}
+
+.sidebar .nav-link.active {
+  color: #005252;
+  background: rgba(0, 82, 82, 0.1);
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(0, 82, 82, 0.15);
+  color: #005252;
+  transform: translateX(5px);
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: #005252;
+}
+
+.sidebar-heading {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #005252;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Title */
+.dashTitle {
+  color: #005252;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Buttons */
+.createBtn {
+  background-color: #005252;
+  color: white;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  border: none;
+}
+
+.createBtn:hover {
+  background-color: white;
+  color: #005252;
+  border: 2px solid #005252;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 82, 82, 0.2);
+}
+
+.btnClose {
+  background-color: #520000;
+  color: white;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  border: none;
+}
+
+.btnClose:hover {
+  background-color: white;
+  color: #520000;
+  border: 2px solid #520000;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(82, 0, 0, 0.2);
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.85rem;
+  }
+
+  .dashTitle {
+    font-size: 1.4rem;
+  }
+
+  .createBtn,
+  .btnClose {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sidebar .nav-link {
+  animation: fadeIn 0.4s ease-in-out;
+}

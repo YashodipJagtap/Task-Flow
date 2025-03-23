@@ -1,0 +1,87 @@
+/* 📌 Centered Form */
+.form-signin {
+  width: 330px;
+  max-width: 330px;
+  padding: 20px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* ✅ Form Hover Effect */
+.form-signin:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 📌 Checkbox Styling */
+.form-signin .checkbox {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+}
+
+/* 📌 Floating Label Focus Effect */
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+/* 📌 Input Fields */
+.form-signin input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ✅ Input Focus Effect */
+.form-signin input:focus {
+  border-color: #005252;
+  box-shadow: 0 0 5px rgba(0, 82, 82, 0.3);
+  outline: none;
+}
+
+/* 📌 Email Input */
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* 📌 Password Input */
+.form-signin input[type="password"] {
+  margin-bottom: 12px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* 🎨 Submit Button */
+.submitBtn {
+  width: 100%;
+  background-color: #005252;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+}
+
+/* 🔥 Hover Effect */
+.submitBtn:hover {
+  background-color: white;
+  color: #005252;
+  border: 1px solid #005252;
+}
+
+/* 🌀 Button Click Effect */
+.submitBtn:active {
+  transform: scale(0.98);
+  box-shadow: inset 0 0 5px rgba(0, 82, 82, 0.3);
+}

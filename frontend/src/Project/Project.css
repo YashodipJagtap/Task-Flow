@@ -1,0 +1,114 @@
+/* Project Name */
+.projTitle {
+  color: #005252;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.projDesc,.projTitle:hover {
+  color: #f4c400;
+  /* 🟡 Golden Yellow Text */
+  /* background-color: white; */
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+/* Project Description */
+.projDesc {
+  color: #666;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.projDesc,
+.projDesc,
+.projTitle:hover {
+  color: #f4c400;
+  /* 🟡 Golden Yellow Text */
+  /* background-color: white; */
+  padding: 5px 10px;
+  border-radius: 8px;
+}.projDesc,.projDesc,
+.projTitle:hover {
+  color: #f4c400;
+  /* 🟡 Golden Yellow Text */
+  /* background-color: white; */
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+/* Project Card */
+.projCard {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.projCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  color: #005252;
+}
+
+/* Project Button */
+.projCard .btn {
+  background: #005252;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.projCard .btn:hover {
+  background: white;
+  color: #f4c400;
+  /* 🟡 Golden Yellow */
+  box-shadow: 0 0 10px rgba(244, 196, 0, 0.5);
+}
+
+/* ✅ Edit Project Button */
+.btnEdit {
+  background-color: #008080;
+  /* 🟢 Teal Default */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnEdit:hover {
+  background: white;
+  color: #f4c400;
+  /* 🟡 Golden Yellow */
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(244, 196, 0, 0.6);
+}
+
+/* ❌ Delete Project Button */
+.btnDelete {
+  background-color: #520000;
+  /* 🔴 Dark Red Default */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnDelete:hover {
+  background: white;
+  color: #f4c400;
+  /* 🟡 Golden Yellow */
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(244, 196, 0, 0.6);
+}

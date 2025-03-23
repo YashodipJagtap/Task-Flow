@@ -1,0 +1,177 @@
+/* Footer Styles */
+.footer {
+  background-color: #004d4d !important;
+  /* Match navbar */
+  color: white !important;
+  width: 100% !important;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  z-index: 1000 !important;
+  padding: 15px 0 !important;
+  font-size: 16px !important;
+  border-top: 3px solid #00a6a6 !important;
+  /* Gradient Border */
+  box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.3) !important;
+  animation: slideUp 0.7s ease-in-out !important;
+  /* Smooth Entrance */
+}
+
+/* Flexbox Layout */
+.footer-container {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  max-width: 1200px !important;
+  margin: auto !important;
+  padding: 0 20px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+/* Left Section - TASK FLOW */
+.footer-left {
+  flex: 1 !important;
+  text-align: left !important;
+}
+
+.footer-left .footer-logo {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+
+/* Logo Hover Effect */
+.footer-left .footer-logo:hover {
+  transform: scale(1.1) !important;
+  color: #f4c400 !important;
+  text-shadow: 0 0 10px rgba(244, 196, 0, 0.8) !important;
+}
+
+/* Centered Text */
+.footer-center {
+  flex: 1 !important;
+  text-align: center !important;
+  opacity: 0.8 !important;
+  transition: opacity 0.3s ease-in-out !important;
+}
+
+/* Center Hover */
+.footer-center:hover {
+  opacity: 1 !important;
+  font-weight: bold !important;
+}
+
+/* Right Section - Social Links */
+.footer-right {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  gap: 20px !important;
+}
+
+.footer-right a {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out !important;
+  position: relative !important;
+}
+
+/* Hover Effects */
+.footer-right a:hover {
+  color: #f4c400 !important;
+  transform: scale(1.1) !important;
+}
+
+/* Underline Animation */
+.footer-right a::after {
+  content: "" !important;
+  position: absolute !important;
+  width: 0 !important;
+  height: 2px !important;
+  bottom: -5px !important;
+  left: 50% !important;
+  background-color: #f4c400 !important;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out !important;
+}
+
+.footer-right a:hover::after {
+  width: 100% !important;
+  left: 0 !important;
+}
+
+/* Footer Hover Animation */
+.footer:hover {
+  box-shadow: 0px -5px 20px rgba(0, 166, 166, 0.7) !important;
+}
+
+/* Smooth Entry Animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%) !important;
+    opacity: 0 !important;
+  }
+
+  to {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 10px !important;
+  }
+
+  .footer-right {
+    justify-content: center !important;
+    margin-top: 5px !important;
+  }
+}
+
+/* Responsive OpTask Section */
+.opTask {
+  position: absolute !important;
+  bottom: 20px !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* When the screen size is small, move opTask into the footer */
+@media (max-width: 767.98px) {
+  .footer {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .opTask {
+    position: relative !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    padding: 10px !important;
+  }
+}
+
+.footer-left {
+  position: absolute;
+  left: 27px;
+  bottom: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Right Section: Social Icons */
+.footer-right {
+  position: absolute;
+  right: 27px;
+  bottom: 18px;
+  display: flex;
+  gap: 15px;
+}

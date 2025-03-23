@@ -1,0 +1,69 @@
+.btnUpdate {
+    background: linear-gradient(135deg, #005252, #008080);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnUpdate:hover {
+    background: linear-gradient(135deg, #008080, #3feee6);
+    color: white;
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 82, 82, 0.4);
+}
+
+.btnClose {
+    background: linear-gradient(135deg, #520000, #900000);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnClose:hover {
+    color: white;
+    background: linear-gradient(135deg, #900000, #ff4d4d);
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 0 4px 15px rgba(82, 0, 0, 0.4);
+}
+
+/* Outline Primary Button */
+.btn-outline-primary {
+    background-color: white;
+    color: #005252;
+    border: 2px solid #005252;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    background-color: #005252;
+    color: white;
+    border-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 97, 97, 0.4);
+}
+
+/* Task Container Animation */
+.taskContainer {
+    height: 85vh;
+    overflow: auto;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,40 @@
+.addBtn {
+  background: linear-gradient(135deg, #005252, #008080);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.addBtn:hover {
+  background: linear-gradient(135deg, #008080, #3feee6);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 238, 230, 0.5);
+}
+
+.addBtn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 8px rgba(0, 82, 82, 0.5);
+}
+
+/* Ripple Effect */
+.addBtn::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.addBtn:active::after {
+  transform: translate(-50%, -50%) scale(2);
+}
