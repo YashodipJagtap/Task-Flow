@@ -98,7 +98,7 @@ You can find the project presentation [here](https://www.slideshare.net/ShwetKha
 ### For Developers and Students
 - **Improved Productivity**: Centralized task management helps users stay organized and focused.
 - **Better Collaboration**: Teams can easily assign tasks and track progress, improving collaboration.
-- **Enhanced Time Management**: Clear visualization of task status helps users prioritize and manage their time effectively.
+- **Enhanced Time Management**: Clear visualisation of task status helps users prioritize and manage their time effectively.
 
 ### For Project Management
 - **Streamlined Workflow**: Task Flow simplifies the process of creating, updating, and tracking tasks.
