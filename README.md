@@ -58,7 +58,7 @@ You can find the project presentation [here](https://www.slideshare.net/ShwetKha
 ### 2. Task Management
 - **Task Categories**: Tasks are categorized into **To-Do**, **In-Progress**, and **Done** for easy tracking.
 - **Task Actions**: Users can add, update, edit, and delete tasks dynamically.
-- **Progress Tracking**: Visual representation of task progress helps users stay on top of their work.
+- **Progress Tracking**: A Visual representation of task progress helps users stay on top of their work.
 
 ### 3. Project Creation
 - **New Project**: Users can create new projects by providing a project name and description.
