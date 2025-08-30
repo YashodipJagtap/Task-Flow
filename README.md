@@ -10,8 +10,9 @@
 7. [Impact](#impact)
 8. [Installation](#installation)
 9. [Usage](#usage)
-10. [Contributing](#contributing)
-11. [License](#license)
+10. [Screenshots](#screenshots)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ---
 
@@ -156,6 +157,19 @@ To get started with **Task Flow**, follow these steps:
 4. **User Profile**:
    - Edit your profile details, including full name, job, institution, email, and location.
    - View the most recent projects you've worked on.
+
+---
+
+## Screenshots
+
+### Dashboard
+![Dashboard](screencapture-localhost-3000-dashboard-2025-08-30-22_02_38.png)
+
+### Project Task Management
+![Project Task Management](screencapture-localhost-3000-projects-68b326bbb053ebae171488ce-2025-08-30-22_03_03.png)
+
+### User Profile
+![User Profile](screencapture-localhost-3000-profile-2025-08-30-22_03_17.png)
 
 ---
 
