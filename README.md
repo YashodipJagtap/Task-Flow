@@ -38,18 +38,6 @@ This solution ensures that teams can collaborate more effectively, stay organize
 
 ---
 
-## WebApp Details
-### Live Site
-You can find the live site for **Task Flow** [here](http://OpTasks.herokuapp.com/) for a demo.
-
-### Video Demonstration
-Watch the demonstration video [here](https://vimeo.com/568019065) to see how **Task Flow** works.
-
-### PPT
-You can find the project presentation [here](https://www.slideshare.net/ShwetKhatri1/OpTask) to learn more about **Task Flow**.
-
----
-
 ## Key Features
 ### 1. Dashboard
 - **Centralized View**: View all your projects and tasks in one place.
